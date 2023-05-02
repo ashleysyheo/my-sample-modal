@@ -5,7 +5,7 @@
 ## 설치 방법
 
 ```sh
-npm install my-sample-modal
+npm install woowacourse-my-sample-modal
 ```
 
 ## 사용 방법
@@ -13,7 +13,7 @@ npm install my-sample-modal
 ### Modal 컴포넌트 불러오기
 
 ```js
-import MyModal from 'my-sample-modal';
+import { Modal } from 'woowacourse-my-sample-modal';
 ```
 
 ### Modal 사용하기
@@ -33,7 +33,7 @@ children: 모달 내부에 들어갈 컨텐츠입니다.
 ### Props 예시
 
 ```js
-import Modal from 'my-modal-library';
+import { Modal } from 'woowacourse-my-sample-modal';
 
 function App() {
   return (
